@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------
- *  Author:        Carlos Machado
+ *  Author:        Carlos Machado (carlosfrederico77)
  *  Written:       3/4/2017
  *  Last updated:  3/4/2017
  *
