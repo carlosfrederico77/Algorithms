@@ -137,7 +137,8 @@ public class Percolation {
     *   A simples trial of this class
     */   
    public static void main(String[] args){   
-	   Percolation perc = new Percolation(5);
+	   
+	   Percolation perc = new Percolation(2);
 
 	   for (int i = 0; i < perc.n; i++) {
 		   for (int j = 0; j < perc.n; j++) {
@@ -148,25 +149,9 @@ public class Percolation {
 	   System.out.println();
 	   System.out.println();
 	   
-	   perc.open(4, 2);
-	   perc.open(3, 1);
-	   perc.open(5, 5);
 	   perc.open(1, 1);
 	   perc.open(2, 1);
-	   for (int i = 0; i < perc.n; i++) {
-		   for (int j = 0; j < perc.n; j++) {
-			   System.out.print(perc.matrix[i][j]+" ");			   
-		   }
-		   System.out.println();
-	   }
-	   System.out.println();
-	   System.out.println();
 	   
-	   perc.open(5, 2);
-	   perc.open(4, 4);
-	   perc.open(4, 3);
-	   perc.open(3, 3);
-	   perc.open(3, 2);	
 	   for (int i = 0; i < perc.n; i++) {
 		   for (int j = 0; j < perc.n; j++) {
 			   System.out.print(perc.matrix[i][j]+" ");			   
